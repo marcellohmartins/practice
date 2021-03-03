@@ -1,0 +1,18 @@
+# 1 - create the word list
+l = []
+print('would you like to insert a word? [y] or [n]')
+answer = input()
+while answer == 'y':
+  print('insert the word:')
+  palavra = input()
+  l.append(palavra)
+  print('would you like to put on another word?')
+  answer = input()
+else: 
+  print(l)
+
+# separate the words from the list with a delimeter
+
+delimeter = ','
+
+print(delimeter.join(lbm))
